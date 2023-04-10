@@ -1,0 +1,170 @@
+a {
+    color: #0077cc;
+  }
+  
+  
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+  button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+  }
+  
+  /* Buscador */
+  
+  /* Navbar */
+  
+  .sas{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border-bottom:1px solid #e85909;
+      box-shadow: -1px -1px 2px 2px #e85909;
+  }
+   
+  li,a,button {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: edf0f1;
+      text-decoration: none;
+  }
+   
+  header
+  {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      padding: 30px 10%;
+  }
+   
+  #logo
+  {
+      width: 100px;
+      height: 150px;
+      cursor: pointer;
+      
+  }
+   
+  .nav__links {
+    
+      flex-flow:wrap;
+      list-style: none;
+      justify-content: center;
+   
+  }
+   
+  .nav__links li {
+    
+      display: inline-block;
+      padding: 0px 20px;
+  }
+   
+  .nav__links li a {
+      transition: all 0.3s ease 0s;
+      color: white;
+   
+  }
+   
+  .nav__links li a:hover {
+      color: #131212;
+  }
+   
+  button
+  {
+      color: white;
+      padding: 9px 25px;
+      background-color: rgb(15, 15, 15);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+  }
+  
+  /* btn navbar */
+  
+  #btnS
+  {
+    background-color: #ffffff;
+    color: #e85909;
+    cursor: pointer;
+    
+  
+  }
+  #btnS:hover 
+  {
+    background-color: #ffffff;
+    color: #000000;
+    
+    
+  
+  }
+  
+  
+  /*search*/
+  
+  .search
+  {
+    position:absolute;
+    left: 15%;
+  
+  
+  
+  }
+  
+  #txt
+  {
+    width: 1000px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.25);
+    border: 0px ;
+  }
+  
+  #searchbtn
+  {
+    width: 80px;
+    height: 35px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.25);
+    color: #e85909;
+    border: 0px solid black;
+  
+  }
+  #searchbtn:hover
+  {
+    background-color: #e85909;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
+    transition: all 0.25s 0s ease-out;
+  
+    color: #ffffff;
+    
+  }
+  
+  /* signup */
+  .contenedor-sign-up
+  {
+    position: absolute;
+    justify-content: space-between;
+  
+    padding: 5px;
+    left: 75%;
+    top: 5%;
+  }
+  
+  
