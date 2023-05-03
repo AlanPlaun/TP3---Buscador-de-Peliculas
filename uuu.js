@@ -20,6 +20,7 @@ console.log("Hago consulta - axios");
             cardBody.classList.add("card-body")
             const cardText = document.createElement("p")
             cardText.classList.add("card-text")
+
             cardText.innerHTML = `Nombre: ${actual.title} - Descripcion: ${actual.description} `
             cardBody.appendChild(cardText)
             card.appendChild(cardBody)
@@ -35,10 +36,14 @@ console.log("Fin consulta - axios")
 
 
 /*
+ <a href="#" class="btn btn-primary">Go somewhere</a>
 
 <div id="cards" class="card" style="width: 18rem;">
 <img src="..." class="card-img-top" alt="..." id="imagen">
 <div class="card-body">
   <p class="card-text"></p>
+  <btn class="btn btn-danger">Eliminar</btn>
+  <btn class="btn btn-warning">Modificar</btn>
+  
 </div>
 </div>*/
